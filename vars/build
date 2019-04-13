@@ -1,0 +1,16 @@
+export full_image_name="dst-digitalocean"
+export image_version='0.0.1'
+export image_registry=""
+
+# terraform
+export tf_version="0.11.13"
+export tf_dl_url="https://releases.hashicorp.com/terraform/${tf_version}/terraform_${tf_version}_linux_amd64.zip"
+
+# terragrunt
+export tg_version="0.18.3"
+export tg_dl_url="https://github.com/gruntwork-io/terragrunt/releases/download/v${tg_version}/terragrunt_linux_amd64"
+
+# doctl
+export doctl_version="1.15.0"
+export doctl_dl_url="https://github.com/digitalocean/doctl/releases/download/v${doctl_version}/doctl-${doctl_version}.0-linux-amd64.tar.gz"
+
